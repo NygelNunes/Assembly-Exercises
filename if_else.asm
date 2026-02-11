@@ -22,7 +22,7 @@
 		# --- Estrutura condicional ---
 		blt $t1, $t0, menoridade   # se idade < 18, desvia para menoridade
 		bge $t1, $t0, maioridade   # se idade >= 18, desvia para maioridade "bge - igual, bgt - sem igual"
-	
+
 		# --- Caso seja menor de idade ---
 		menoridade:
 			li $v0, 4
